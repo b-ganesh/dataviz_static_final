@@ -13151,7 +13151,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[0]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -13163,10 +13163,28 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Drive already mounted at /content/gdrive; to attempt to forcibly remount, call drive.mount(&#34;/content/gdrive&#34;, force_remount=True).
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[0]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -13183,10 +13201,54 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Requirement already satisfied: geopandas in /usr/local/lib/python3.6/dist-packages (0.6.3)
+Requirement already satisfied: pandas&gt;=0.23.0 in /usr/local/lib/python3.6/dist-packages (from geopandas) (0.25.3)
+Requirement already satisfied: pyproj in /usr/local/lib/python3.6/dist-packages (from geopandas) (2.4.2.post1)
+Requirement already satisfied: shapely in /usr/local/lib/python3.6/dist-packages (from geopandas) (1.7.0)
+Requirement already satisfied: fiona in /usr/local/lib/python3.6/dist-packages (from geopandas) (1.8.13)
+Requirement already satisfied: pytz&gt;=2017.2 in /usr/local/lib/python3.6/dist-packages (from pandas&gt;=0.23.0-&gt;geopandas) (2018.9)
+Requirement already satisfied: numpy&gt;=1.13.3 in /usr/local/lib/python3.6/dist-packages (from pandas&gt;=0.23.0-&gt;geopandas) (1.17.5)
+Requirement already satisfied: python-dateutil&gt;=2.6.1 in /usr/local/lib/python3.6/dist-packages (from pandas&gt;=0.23.0-&gt;geopandas) (2.6.1)
+Requirement already satisfied: attrs&gt;=17 in /usr/local/lib/python3.6/dist-packages (from fiona-&gt;geopandas) (19.3.0)
+Requirement already satisfied: cligj&gt;=0.5 in /usr/local/lib/python3.6/dist-packages (from fiona-&gt;geopandas) (0.5.0)
+Requirement already satisfied: click&lt;8,&gt;=4.0 in /usr/local/lib/python3.6/dist-packages (from fiona-&gt;geopandas) (7.0)
+Requirement already satisfied: six&gt;=1.7 in /usr/local/lib/python3.6/dist-packages (from fiona-&gt;geopandas) (1.12.0)
+Requirement already satisfied: click-plugins&gt;=1.0 in /usr/local/lib/python3.6/dist-packages (from fiona-&gt;geopandas) (1.1.1)
+Requirement already satisfied: munch in /usr/local/lib/python3.6/dist-packages (from fiona-&gt;geopandas) (2.5.0)
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[14]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>DataTransformerRegistry.enable(&#39;default&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[0]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -13297,6 +13359,26 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[15]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>ThemeRegistry.enable(&#39;viz_theme&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -13339,7 +13421,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -13378,16 +13460,16 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[26]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-f509773658a64ddcb6dcd93ff33b8b06"></div>
+<div id="altair-viz-6530d13b58014daf8ce5b0dc03fb5902"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-f509773658a64ddcb6dcd93ff33b8b06");
+    const outputDiv = document.getElementById("altair-viz-6530d13b58014daf8ce5b0dc03fb5902");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
@@ -13448,7 +13530,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -13483,16 +13565,16 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-8294361132e04570b5aab62ad4b44780"></div>
+<div id="altair-viz-95ab20ffa6d841efb2db352d04c55fcb"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-8294361132e04570b5aab62ad4b44780");
+    const outputDiv = document.getElementById("altair-viz-95ab20ffa6d841efb2db352d04c55fcb");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
@@ -13553,7 +13635,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -13627,16 +13709,16 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-cc55c79703574741b937b0b02bb7c82f"></div>
+<div id="altair-viz-062a21f2519e492fbc90f6d5c111f878"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-cc55c79703574741b937b0b02bb7c82f");
+    const outputDiv = document.getElementById("altair-viz-062a21f2519e492fbc90f6d5c111f878");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
@@ -13697,7 +13779,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -13752,16 +13834,16 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[20]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-405f49a29cb940128a344fb6a586c7ea"></div>
+<div id="altair-viz-87aa10b69383482ea160b42cbe8c4683"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-405f49a29cb940128a344fb6a586c7ea");
+    const outputDiv = document.getElementById("altair-viz-87aa10b69383482ea160b42cbe8c4683");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
@@ -13822,7 +13904,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -13859,16 +13941,16 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[9]:</div>
+    <div class="prompt output_prompt">Out[21]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-4278181a0e0d487d8805bfca62439ab2"></div>
+<div id="altair-viz-f597f5b69b524978b120eb98b4eb7806"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-4278181a0e0d487d8805bfca62439ab2");
+    const outputDiv = document.getElementById("altair-viz-f597f5b69b524978b120eb98b4eb7806");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
@@ -13929,7 +14011,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -13966,16 +14048,16 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-65b49cea1b3245bea91342098063934a"></div>
+<div id="altair-viz-01798d4025fc4851ba254d765001cc51"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-65b49cea1b3245bea91342098063934a");
+    const outputDiv = document.getElementById("altair-viz-01798d4025fc4851ba254d765001cc51");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
@@ -14036,7 +14118,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -14074,16 +14156,16 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[23]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-77e6f8e4c70448b0a2994cf24e2b4167"></div>
+<div id="altair-viz-ecc40428622d4884a0370a1a6b05b953"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-77e6f8e4c70448b0a2994cf24e2b4167");
+    const outputDiv = document.getElementById("altair-viz-ecc40428622d4884a0370a1a6b05b953");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
@@ -14144,7 +14226,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title</span>
@@ -14213,16 +14295,16 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[24]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-1f55f2c8cc4e405ab06198a8431851a4"></div>
+<div id="altair-viz-ec07b2afb6f24d9b8581cfd303ddaa28"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-1f55f2c8cc4e405ab06198a8431851a4");
+    const outputDiv = document.getElementById("altair-viz-ec07b2afb6f24d9b8581cfd303ddaa28");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
